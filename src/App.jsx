@@ -860,7 +860,7 @@ function Navigation({ step, setStep, choices }) {
           borderRadius: 999,
           border: "1px solid #ccc",
           fontSize: 13,
-          background: canBack ? "#fff" : "#f5f5f5",
+          background: canBack ? "#000000ff" : "#f5f5f5",
           cursor: canBack ? "pointer" : "not-allowed",
         }}
       >
@@ -872,10 +872,10 @@ function Navigation({ step, setStep, choices }) {
         style={{
           padding: "8px 16px",
           borderRadius: 999,
-          border: "none",
+          border: "1px solid #ccc",
           fontSize: 13,
           background: filled && canNext ? "#000" : "#ccc",
-          color: "#fff",
+          color: "#ffffffff",
           cursor: filled && canNext ? "pointer" : "not-allowed",
         }}
       >
