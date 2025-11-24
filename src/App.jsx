@@ -858,7 +858,7 @@ function Navigation({ step, setStep, choices }) {
         style={{
           padding: "8px 16px",
           borderRadius: 999,
-          border: "1px solid #ccc",
+          border: "1px solid #eaeaeaff",
           fontSize: 13,
           background: canBack ? "#000000ff" : "#f5f5f5",
           cursor: canBack ? "pointer" : "not-allowed",
