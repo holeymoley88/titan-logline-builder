@@ -181,7 +181,7 @@ function OptionLevel({
       }}
     >
       <h2 style={{ margin: "0 0 4px", fontSize: 18 }}>{title}</h2>
-      <p style={{ margin: "0 0 8px", fontSize: 14, color: "#555" }}>
+      <p style={{ margin: "0 0 8px", fontSize: 14, color: "#ffffffff" }}>
         {description}
       </p>
 
@@ -191,7 +191,7 @@ function OptionLevel({
             margin: "0 0 10px",
             paddingLeft: 18,
             fontSize: 12,
-            color: "#777",
+            color: "#ffffffff",
           }}
         >
           {hints.map((h) => (
@@ -261,8 +261,8 @@ function OptionLevel({
                 padding: "4px 8px",
                 borderRadius: 999,
                 border: selected ? "2px solid #000" : "1px solid #ddd",
-                background: selected ? "#000" : "#000000ff",
-                color: selected ? "#fff" : "#333",
+                background: selected ? "#000" : "#ffffffff",
+                color: selected ? "#ffffffff" : "#000000ff",
                 fontSize: 12,
                 textAlign: "left",
                 cursor: "pointer",
